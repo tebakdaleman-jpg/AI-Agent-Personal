@@ -1,0 +1,18 @@
+# ===== HTTP Client =====
+requests>=2.32.0
+
+# ===== UI =====
+streamlit>=1.39.0
+streamlit-lottie>=0.0.5
+
+# ===== PDF Export =====
+fpdf2>=2.7.0
+
+# ===== Utilities =====
+python-dotenv>=1.0.1
+pydantic>=2.9.0
+pandas>=2.2.0
+python-dateutil>=2.9.0
+
+# Catatan: Semua dependency ini pure-Python dan kompatibel Python 3.9+
+# LLM API dipanggil via REST langsung (tidak butuh SDK google-generativeai/groq)

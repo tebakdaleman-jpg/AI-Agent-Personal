@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables (JANGAN COMMIT API KEY)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Data outputs (regenerate, jangan di-commit)
+data/outputs/*.md
+data/outputs/*.pdf
+data/memory.json
+data/inputs/
+data/reports/
+!data/outputs/.gitkeep
+!data/inputs/.gitkeep
+!data/reports/.gitkeep
+
+# Test files
+test_*.py
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
